@@ -1,0 +1,36 @@
+{
+    "name": "flocking-osc-fm-synth",
+    "description": "FM Synthesizer built with Flocking, Node.js and Open Sound Control",
+    "version": "0.1.0",
+    "author": "Colin Clark",
+    "bugs": "http://github.com/colinbdclark/flocking-osc-fm-synth/issues",
+    "homepage": "http://flockingjs.org",
+    "dependencies": {
+        "infusion": "git://github.com/fluid-project/infusion.git",
+        "flocking": "git://github.com/colinbdclark/node-flocking.git",
+        "flocking-osc": "git://github.com/colinbdclark/flocking-osc.git"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        },
+        {
+            "type": "GPL",
+            "url": "http://opensource.org/licenses/GPL-3.0"
+        }
+    ],
+    "keywords": [
+        "sound", 
+        "audio", 
+        "music", 
+        "synthesis",
+        "osc",
+        "open sound control"
+    ],
+    "repository": "git://github.com/colinbdclark/flocking-osc-fm-synth.git",
+    "main": "index.js",
+    "engines": {
+        "node" : "0.10.x"
+    }
+}
