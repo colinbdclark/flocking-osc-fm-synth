@@ -7,7 +7,7 @@
     "homepage": "http://flockingjs.org",
     "dependencies": {
         "infusion": "git://github.com/fluid-project/infusion.git",
-        "flocking": "git://github.com/colinbdclark/node-flocking.git",
+        "flocking": "git://github.com/colinbdclark/Flocking.git",
         "flocking-osc": "git://github.com/colinbdclark/flocking-osc.git"
     },
     "licenses": [
