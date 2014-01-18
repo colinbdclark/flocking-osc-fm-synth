@@ -8,6 +8,8 @@ var fluid = require("infusion"),
 loader.require("./lib/app.js");
 colin = fluid.registerNamespace("colin");
 
-flock.init();
+flock.init({
+    bufferSize: 512
+});
 flock.enviro.shared.play();
 colin.oscFM.app();
